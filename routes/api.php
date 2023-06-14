@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Api\ProjectApiController;
+use App\Http\Controllers\Api\ProjectController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('projects', [ProjectApiController::class, 'index']);
+Route::get('projects', [ProjectController::class, 'index']);
